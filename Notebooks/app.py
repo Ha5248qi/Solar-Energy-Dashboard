@@ -59,7 +59,6 @@ try:
     )
     
     st.plotly_chart(map_fig, use_container_width=True)
-.
     # 展示数据表
     st.subheader("Data Overview")
     st.dataframe(df)
