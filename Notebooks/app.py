@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"  # 设为宽屏模式
 )
 
-st.title("☀️ Global Solar Adviso")
+st.title("☀️ Global Solar Advisor")
 
 try:
     df = load_data("../data/solar_energy_worldwide.csv")
